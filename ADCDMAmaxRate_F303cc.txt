@@ -1,0 +1,92 @@
+Configuration	ADCDMAmaxRate_F303cc
+STM32CubeMX 	6.6.0
+Date	08/15/2022
+MCU	STM32F303CCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1 Differential	ADC1_IN1	PA0
+ADC1	IN1 Differential	ADC1_IN2	PA1
+ADC2	IN1 Differential	ADC2_IN1	PA4
+ADC2	IN1 Differential	ADC2_IN2	PA5
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Output	LED
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+10	PA0	ADC1_IN1	
+11	PA1	ADC1_IN2	
+14	PA4	ADC2_IN1	
+15	PA5	ADC2_IN2	
+20	PB2	GPIO_Input	BOOT1
+30	PA9	USART1_TX	
+31	PA10	USART1_RX	
+34	PA13	SYS_JTMS-SWDIO	SWDIO
+37	PA14	SYS_JTCK-SWCLK	SWCLK
+46	PB9	GPIO_Output	LED2
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1 Differential	ADC1_IN1	PA0
+ADC1	IN1 Differential	ADC1_IN2	PA1
+ADC2	IN1 Differential	ADC2_IN1	PA4
+ADC2	IN1 Differential	ADC2_IN2	PA5
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Output	LED
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+10	PA0	ADC1_IN1	
+11	PA1	ADC1_IN2	
+14	PA4	ADC2_IN1	
+15	PA5	ADC2_IN2	
+20	PB2	GPIO_Input	BOOT1
+30	PA9	USART1_TX	
+31	PA10	USART1_RX	
+34	PA13	SYS_JTMS-SWDIO	SWDIO
+37	PA14	SYS_JTCK-SWCLK	SWCLK
+46	PB9	GPIO_Output	LED2
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : ADCDMAmaxRate_F303cc
+Project Folder : /home/uzi/STM32CubeIDE/workspace_1.10.0/ADCDMAmaxRate_F303cc
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F3 V1.11.3
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
